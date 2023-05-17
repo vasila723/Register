@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background=""
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="355dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Register"
+        android:textSize="45dp"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="48dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/surname"
+        android:layout_width="277dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="surname"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="223dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="277dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="143dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="277dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="age"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="311dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="123dp"
+        android:layout_height="65dp"
+        android:background="@color/teal_200"
+        android:text="Save"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
